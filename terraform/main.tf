@@ -9,7 +9,7 @@ terraform {
 
   # Note: Backend values cannot use variables. Update these directly if needed.
   backend "s3" {
-    bucket  = "terraform-eks-state-migproject"
+    bucket  = "terraform-eks-state-zeeproject"
     key     = "eks/terraform.tfstate"
     region  = "us-east-1"
     encrypt = true
